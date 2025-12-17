@@ -47,20 +47,17 @@ if (isNaN(increment) || increment < 1) {
 
 // ? Scrivo il ciclo
 for (let i = startNum; i <= yourNumber; i += increment) {
-  console.log(i);
   // ? Per i multipli di 3 e 5 o più semplicemente di 15 il risultato deve essere "FizzBuzz"
   if (i % 15 === 0) {
-    i === "FizzBuzz";
-    console.log(i);
+    console.log("FizzBuzz");
   }
   // ? Per i multipli di 3 il risultato deve essere “Fizz”
   else if (i % 3 === 0) {
-    i === "Fizz";
-    console.log(i);
+    console.log("Fizz");
   }
   // ? Per i multipli di 5 il risultato deve essere “Buzz”
   else if (i % 5 === 0) {
-    i === "Buzz";
-    console.log(i);
+    console.log("Buzz");
   }
+  console.log(i);
 }
