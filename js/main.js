@@ -59,5 +59,8 @@ for (let i = startNum; i <= yourNumber; i += increment) {
   else if (i % 5 === 0) {
     console.log("Buzz");
   }
-  console.log(i);
+  //   ? Se non ci sono multipli allora stampo seplicemente il numero
+  else {
+    console.log(i);
+  }
 }
