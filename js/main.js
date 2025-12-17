@@ -48,7 +48,7 @@ if (isNaN(increment) || increment < 1) {
 // ? Scrivo il ciclo
 for (let i = startNum; i <= yourNumber; i += increment) {
   // ? Per i multipli di 3 e 5 o più semplicemente di 15 il risultato deve essere "FizzBuzz"
-  if (i % 15 === 0) {
+  if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
   }
   // ? Per i multipli di 3 il risultato deve essere “Fizz”
